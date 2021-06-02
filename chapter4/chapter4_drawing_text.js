@@ -1,7 +1,7 @@
-var canvas = document.getElementById("tutorial");
+const canvas = document.getElementById("tutorial");
 
 if (canvas.getContext) {
-  var ctx = canvas.getContext("2d");
+  const ctx = canvas.getContext("2d");
   ctx.canvas.width = window.innerWidth;
   ctx.canvas.height = window.innerHeight;
 
